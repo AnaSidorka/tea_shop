@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    display: block;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom:1px solid seashell;
+    position: sticky;
+    top:0;
+    background-color: black;
+    z-index: 1;
+}
+#logo img{
+    position: fixed;
+    left: 10px;
+    margin: 10px;
+    height: 50px; 
+}
+nav ul{
+    position: fixed;
+    right: 10px;
+    top: 21px;
+}
+nav li{
+    display: inline-block;
+    text-decoration:underline;
+    margin-left: 15px;
+}
+main{
+    padding: 0 50px;
+}
+
+#poster {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+}
+#poster_title{
+    background-color: black;
+    position:relative;
+    top: 300px;
+    padding: 10px 0;
+}
+
+/*Teas Section*/
+#teas{
+    width: 1000px;
+    margin:auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+#teas_title_container h2{
+    margin-top: 100px;
+}
+#teas_title_container h2, h4{
+    margin-bottom: 25px;
+}
+
+#teas_container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-content:space-around;
+    margin-bottom: 100px;
+}
+
+.teatype img{
+    width: 300px;
+    height: 200px;
+    margin: 25px 15px 10px 15px;
+}
+figcaption {
+    margin:0;
+    font-weight: bold;
+}
+
+/*Locations Section*/
+#locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;    
+    height: 500px;
+    width: 100%;
+}
+#locations h2{
+    padding-top: 70px;
+}
+div#location {
+    display: flex;
+    justify-content: center;
+}
+.address {
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    padding: 40px 0 20px;
+    border: 1px solid white;
+}
+.address h3{
+
+}
+.address p{
+    padding-top: 10px;
+    line-height: 2.5em;
+    opacity: 1;
+}
+
+
+/*Footer*/
+footer {
+    height: 200px;
+    padding: 30px 14px 30px 14px;
+}
+footer h5 {
+    line-height: 3em;
+}
+#copy {
+    text-align: left;
+}
